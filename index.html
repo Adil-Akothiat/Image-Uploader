@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Uploader</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./index.js" defer></script>
+</head>
+<body>
+    <div class="loader">
+        <h2>
+            Uploading...
+        </h2>
+        <div class="translate_loader">
+
+        </div>
+    </div> 
+    <div class="upload_box">
+        <div class="upl">
+            <h1>
+                upload your image
+            </h1>
+            <p>
+                file should be jpg, jpeg, png, gif...
+            </p>
+            <div class="drop_box">
+                <img src="./images/image.svg" alt="img">
+                <strong>
+                    drag & drop your image here
+                </strong>
+            </div>
+            <h2>
+                or
+            </h2>
+            <input type="file" name="upload" id="upload" class="uploader" accept="image/png, image/jpg, image/gif, image/jpeg" src="./carbon.png">
+        </div>
+        <div class="file_view">
+        </div>
+    </div>
+</body>
+</html>
